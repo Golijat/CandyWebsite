@@ -1,3 +1,37 @@
+html {
+    overflow-x: hidden;
+}
+
 body{
     background-color: grey;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar img {
+    height: 4rem;
+}
+
+#myCarousel {
+    height: 500px;
+}
+
+#myCarousel .item {
+    height: 500px;
+}
+
+#myCarousel .item figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }

@@ -1,3 +1,20 @@
 .col-sm-4{
+    display: flex;
     overflow: hidden;
+    flex-direction: column;
+}
+
+.navbar{
+    border-radius: 0;
+}
+
+.navbar .navbar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar img {
+    height: 4rem;
 }

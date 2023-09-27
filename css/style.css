@@ -1,6 +1,8 @@
 :root {
     --brandcolormain:#6113EC;
     --brandcolorsecondary:#C01E1E;
+    --textcolormain:#1EC0C0;
+    --textcolorsecondary:#9EEC13;
 }
 
 html {
@@ -11,10 +13,20 @@ body{
     background-color: var(--brandcolormain);
 }
 
+.jumbotron{
+    background-color: var(--brandcolorsecondary);
+}
+.jumbotron h1{
+    color: var(--textcolormain);
+}
+
 .col-sm-4{
     display: flex;
     overflow: hidden;
     flex-direction: column;
+}
+.col-sm-4 p{
+    color: var(--textcolorsecondary);
 }
 
 .navbar {

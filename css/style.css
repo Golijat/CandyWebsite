@@ -1,9 +1,20 @@
+:root {
+    --brandcolormain:#6113EC;
+    --brandcolorsecondary:#C01E1E;
+}
+
 html {
     overflow-x: hidden;
 }
 
 body{
-    background-color: grey;
+    background-color: var(--brandcolormain);
+}
+
+.col-sm-4{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
 }
 
 .navbar {
@@ -24,6 +35,7 @@ body{
 
 #myCarousel {
     height: 500px;
+    background-color: var(--brandcolorsecondary);
 }
 
 #myCarousel .item {

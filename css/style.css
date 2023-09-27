@@ -25,7 +25,20 @@ body{
     overflow: hidden;
     flex-direction: column;
 }
-.col-sm-4 p{
+
+/* Puts products pictures in the middle of their columns. */
+.container img {
+    margin: auto;    
+    display: block;
+} 
+
+/* Puts the products text in the center and sets their color. */
+.container p{
+    text-align: center;
+    color: var(--textcolorsecondary);
+}
+
+.container h3{
     color: var(--textcolorsecondary);
 }
 
